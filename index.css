@@ -1,11 +1,9 @@
-
-body{
-    font-size: 18px;
+body {
+  font-size: 18px;
 }
 p {
-    margin-bottom: 30px;
+  margin-bottom: 30px;
 }
-
 
 .navBar {
   border: 1px solid black;
@@ -37,70 +35,93 @@ p {
 
 /*mainImage*/
 .mainImage {
-    border: 1px solid black;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 50px;
-    /* display: flex;
+  border: 1px solid black;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  /* display: flex;
     flex-direction: column; */
-    /* margin: auto; */
-    width: 1000px;
+  /* margin: auto; */
+  width: 1000px;
 }
 
 .mainImage img {
-    width: 1000px;
-    height: auto;
+  width: 1000px;
+  height: auto;
 }
+
+.mainImage h1 {
+  color: red;
+  font-size: 35px;
+  font-weight: 600;
+  padding-bottom: 20px;
+  padding-left: 150px;
+  padding-right: 300px;
+  line-height: 35px;
+}
+
+.mainImage p {
+  color: #666;
+  font-size: 16px;
+  padding-right: 50px;
+  margin-top: 10px;
+  width: 900px;
+  border-right: 20px;
+}
+
+.mainImage p span {
+  font-size: 12px;
+  opacity: 0.7;
+}
+
 /* firstArticle */
 
 .article {
-    width: 600px;
-    margin-left: auto;
-    margin-right: auto;
-    line-height: 18px;
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 18px;
 }
 
 /*ICONS BOX*/
 .main-box-items {
-    /* border: 1px solid black; */
-    display: flex;
-    margin-top: 50px;
-    margin-bottom: 50px;
-
+  /* border: 1px solid black; */
+  display: flex;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
-.box-items-left{
-    /* border: 1px solid black; */
-    width: 300px;
+.box-items-left {
+  /* border: 1px solid black; */
+  width: 300px;
 }
 .box-items-left p {
-    color: #333;
-    font-weight: 600;
-    text-decoration: underline;
+  color: #333;
+  font-weight: 600;
+  text-decoration: underline;
 }
 .box-items-left p:hover {
-    text-decoration:none
+  text-decoration: none;
 }
 
 .box-items-left span {
-    color: #333;
-    font-size: 16px;
+  color: #333;
+  font-size: 16px;
 }
 
-
-.box-items-right{
-    /* border: 1px solid black; */
-    width: 300px;
-    margin-top: 45px;
-    /* font-size: 20px; */
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
+.box-items-right {
+  /* border: 1px solid black; */
+  width: 300px;
+  margin-top: 45px;
+  /* font-size: 20px; */
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
 }
 .box-items-right a {
-    font-size: 22px;
-    padding-left: 15px;
-    opacity: 0.8;
+  font-size: 22px;
+  padding-left: 15px;
+  opacity: 0.8;
 }
-.box-items-right a :hover{
-    opacity: 0.4;
+.box-items-right a :hover {
+  opacity: 0.4;
 }
