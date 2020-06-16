@@ -1,9 +1,24 @@
 .navBar {
-    border: 1px solid black;
+  border: 1px solid black;
+  display: flex;
+  justify-content: space-between;
+  width: 1200px;
+  margin: auto;
 }
 .left-navBar {
-    border: 1px solid black;
+  border: 1px solid black;
+}
+
+.left-navBar a {
+  color: red;
+  margin-right: 20px;
 }
 .right-navBar {
-    border: 1px solid black;
+  border: 1px solid black;
+}
+
+.right-navBar button {
+  background-color: yellow;
+  margin-left: 10px;
+  height: 100px;
 }
