@@ -1,1 +1,9 @@
-
+.navBar {
+    border: 1px solid black;
+}
+.left-navBar {
+    border: 1px solid black;
+}
+.right-navBar {
+    border: 1px solid black;
+}
