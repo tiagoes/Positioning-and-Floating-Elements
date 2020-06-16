@@ -1,3 +1,12 @@
+
+body{
+    font-size: 18px;
+}
+p {
+    margin-bottom: 30px;
+}
+
+
 .navBar {
   border: 1px solid black;
   display: flex;
@@ -12,12 +21,86 @@
 .left-navBar a {
   color: red;
   margin-right: 20px;
+  /* font-size: 30px; */
 }
 .right-navBar {
   border: 1px solid black;
 }
 
 .right-navBar button {
-  background-color: yellow;
+  background-color: #567b95;
+  border: 1px solid #326891;
+  border-radius: 2px;
+  color: white;
   margin-left: 10px;
+}
+
+/*mainImage*/
+.mainImage {
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    /* display: flex;
+    flex-direction: column; */
+    /* margin: auto; */
+    width: 1000px;
+}
+
+.mainImage img {
+    width: 1000px;
+    height: auto;
+}
+/* firstArticle */
+
+.article {
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 18px;
+}
+
+/*ICONS BOX*/
+.main-box-items {
+    /* border: 1px solid black; */
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+.box-items-left{
+    /* border: 1px solid black; */
+    width: 300px;
+}
+.box-items-left p {
+    color: #333;
+    font-weight: 600;
+    text-decoration: underline;
+}
+.box-items-left p:hover {
+    text-decoration:none
+}
+
+.box-items-left span {
+    color: #333;
+    font-size: 16px;
+}
+
+
+.box-items-right{
+    /* border: 1px solid black; */
+    width: 300px;
+    margin-top: 45px;
+    /* font-size: 20px; */
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.box-items-right a {
+    font-size: 22px;
+    padding-left: 15px;
+    opacity: 0.8;
+}
+.box-items-right a :hover{
+    opacity: 0.4;
 }
