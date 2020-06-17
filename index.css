@@ -163,3 +163,30 @@ p {
 .box-items-right a :hover {
   opacity: 0.4;
 }
+
+/* second article*/
+.article2-container {
+  border: 1px solid black;
+  display: flex;
+  flex-direction: row;
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.aside-container {
+  border: 1px solid black;
+  width: 210px;
+  display: flex;
+  flex-direction: column;
+}
+
+.aside-container-box {
+  border: 1px solid black;
+  display: flex;
+  flex-direction: row;
+}
+.aside-container-box img {
+  width: 75px;
+  height: 75px;
+}
