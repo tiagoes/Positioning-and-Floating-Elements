@@ -1,24 +1,22 @@
 body {
   font-size: 20px;
-  color: #333   ;
+  color: #333;
 }
 p {
   margin-bottom: 30px;
 }
 
 .fixing-navBar {
-    position: fixed;
-    top: 0;
-    left: 0;
-    margin: auto;
-    width: 100%;
-    background-color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  margin: auto;
+  width: 100%;
+  background-color: white;
 }
-
 
 /* navBar */
 .navBar {
-  
   display: flex;
   justify-content: space-between;
   width: 100%;
@@ -27,7 +25,6 @@ p {
   padding: 5px 10px 5px 10px;
   border-bottom: 1px solid grey;
   align-items: baseline;
-  
 }
 .left-navBar {
   /* border: 1px solid black; */
@@ -39,24 +36,23 @@ p {
   font-size: 16px;
   opacity: 0.8;
 }
-.left-navBar a:hover{
-    opacity: 0.4;
+.left-navBar a:hover {
+  opacity: 0.4;
 }
 
 .space {
-    font-weight: 600;
-    opacity: 0.8;
-    
+  font-weight: 600;
+  opacity: 0.8;
 }
-.space:hover{
-    text-decoration: underline;
+.space:hover {
+  text-decoration: underline;
 }
 
 .navBar h3 {
-    font-weight: 600;
+  font-weight: 600;
 }
 .right-navBar {
-    align-items: baseline;
+  align-items: baseline;
 }
 
 .right-navBar button {
@@ -68,7 +64,6 @@ p {
   margin-left: 10px;
   font-weight: 700;
 }
-
 
 /*mainImage*/
 .mainImage {
@@ -85,7 +80,6 @@ p {
 }
 
 .mainImage h1 {
-  
   font-size: 35px;
   font-weight: 600;
   /* margin-top: 80px; */
@@ -188,7 +182,7 @@ p {
   flex-direction: column;
   padding-top: 650px;
 }
-.aside-container>h3 {
+.aside-container > h3 {
   /* color: red; */
   font-size: 14px;
   font-weight: 700;
@@ -208,7 +202,7 @@ p {
   height: 75px;
 }
 
-.aside-container-box h3{
+.aside-container-box h3 {
   font-size: 14px;
   /* border: 1px solid black; */
   /* margin: 22px 0  22px 10px; */
@@ -229,4 +223,26 @@ p {
 } */
 #fourthh3 {
   margin-top: 0px;
+}
+
+#subtext {
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+  text-align: center;
+  margin-bottom: 30px;
+}
+#subtext p {
+  margin-bottom: 0px;
+  font-size: 16px;
+  font-weight: 1000;
+}
+
+#subtext a {
+  font-size: 16px;
+  color: rgb(50, 104, 145);
+  font-weight: 700;
+}
+
+.article2-bluelink {
+  color: rgb(50, 104, 145);
 }
