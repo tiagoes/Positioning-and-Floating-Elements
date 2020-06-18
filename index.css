@@ -1,6 +1,7 @@
 body {
   font-size: 20px;
   color: #333;
+  line-height: 30px;
 }
 p {
   margin-bottom: 30px;
@@ -245,4 +246,31 @@ p {
 
 .article2-bluelink {
   color: rgb(50, 104, 145);
+}
+
+/* article4 */
+.article4-footer {
+  border: 1px solid black;
+  display: flex;
+  flex-direction: row;
+}
+
+.article4-footer button {
+  width: 300px;
+}
+
+.article4-icons {
+  display: flex;
+  justify-content: flex-end;
+  width: 300px;
+  font-size: 24px;
+}
+
+.article4-icons a {
+  padding-left: 15px;
+  opacity: 0.6px;
+}
+
+.article4-icons a :hover {
+  color: #666;
 }
