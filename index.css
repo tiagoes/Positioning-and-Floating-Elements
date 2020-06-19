@@ -1,8 +1,119 @@
-
+/* a i {
+  font-size: 30px;
+  width: 30px;
+} */
 /*TIAGO'S SPACE*/
+footer {
+  width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 100px;
+  margin-bottom: 300px;
+  padding-right: 50px;
+  padding-left: 50px;
+  padding-bottom: 10px;
+  /* border-top: 2px solid grey;
+  border-bottom: 1px solid grey; */
+}
+.footer-title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-top: 2px solid grey;
+  height: 50px;
+  margin-bottom: 20px;
+}
+.footer-title h2 {
+  align-self: center;
+}
+.footer-title a {
+  color: rgb(86, 123, 149);
+  font-size: 13px;
+  align-self: flex-end;
+}
+
+.footer-main-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-bottom: 10px;
+  border-bottom: 1px solid grey;
+  /* border: 1px solid black; */
+}
+.footer-main-column {
+  display: flex;
+  flex-direction: column;
+  /* border: 1px solid black; */
+}
+.footer-main-column h3 {
+  font-size: 13px;
+  font-weight: 700;
+  color: rgb(51, 51, 51)
+}
+.footer-main-column a {
+  width: 150px;
+  font-size: 14px;
+  color: rgb(51, 51, 51)
+}
+
+.footer-bottom a:hover,
+.footer-title a:hover,
+.footer-main-column a:hover {
+  text-decoration: underline;
+}
+
+.footer-navBar-size {
+  width: 200px;
+  border-left: 1px solid gray;
+  padding-left: 15px;
+  
+}
+
+.footer-navBar-1list {
+  /* border: 1px solid black; */
+  
+  
+}
+.footer-navBar-1list a {
+  /* color: red; */
+  font-size: 14px;
+  font-weight: 700;
+  
+}
+
+.footer-navBar-2ist  {
+  border-bottom: 1px solid black;
+  
+}
+
+.footer-navBar-2list a {
+  /* color: blue; */
+font-size: 11px;
+
+}
+
+.footer-navBar-3list {
+  border-top: 1px solid grey;
+  
+}
+
+.footer-navBar-3list a{
+  /* color: green; */
+  font-size: 11px;
+  
+}
 
 
 
+.footer-bottom {
+ display: flex;
+ justify-content: space-around;
+ padding-top: 10px;
+}
+.footer-bottom a{
+  color: #666;
+  font-size: 11px;
+}
 
 
 
