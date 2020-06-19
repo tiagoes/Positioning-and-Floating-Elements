@@ -1,10 +1,4 @@
-
 /*TIAGO'S SPACE*/
-
-
-
-
-
 
 /*  */
 body {
@@ -192,7 +186,6 @@ p {
   display: flex;
   flex-direction: column;
   padding-top: 950px;
-
 }
 .aside-container > h3 {
   /* color: red; */
@@ -230,16 +223,14 @@ p {
   font-weight: 700;
 }
 
-/
-#fourthh3 {
+/ #fourthh3 {
   margin-top: 0px;
 }
 .subtext::before {
   content: "";
-  display: block; 
+  display: block;
   margin: 0px auto 20px auto;
   width: 12.5%;
-  ;
   border-bottom: 1px solid gray;
 }
 
@@ -250,10 +241,9 @@ p {
 }
 .subtext:after {
   content: "";
-  display: block; 
+  display: block;
   margin: 20px auto 0px auto;
-  width: 12.5%; 
-  ;
+  width: 12.5%;
   border-bottom: 1px solid gray;
 }
 
@@ -273,28 +263,27 @@ p {
   color: rgb(50, 104, 145);
   text-decoration: underline;
   font-weight: 200;
-  }
+}
 .article-bluelink:hover {
   text-decoration: none;
   cursor: pointer;
 }
 
 /* article4 video */
-.video-container{
-margin-top: 50px;
-margin-bottom: 50px;
+.video-container {
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
-.video-container p{
-color: #666;
-line-height: 20px;
-font-size: 16px;
-padding-right: 100px;
+.video-container p {
+  color: #666;
+  line-height: 20px;
+  font-size: 16px;
+  padding-right: 100px;
 }
 .video-container p span {
   opacity: 0.5;
   font-size: 14px;
 }
-
 
 .article4-bottom-text,
 .article4-bottom-text a {
@@ -336,32 +325,93 @@ padding-right: 100px;
 }
 
 .article4-icons a :hover {
-  opacity: 0.4
+  opacity: 0.4;
 }
 
 /* article4 image */
-.article4-img-container{
+.article4-img-container {
   margin-top: 50px;
   margin-bottom: 50px;
 }
 .article4-img-container img {
   width: 600px;
   height: auto;
-  
 }
 
-.article4-img-container p{
+.article4-img-container p {
   color: #666;
   line-height: 20px;
   font-size: 16px;
   padding-right: 50px;
-  }
+}
 .article4-img-container span {
-    opacity: 0.5;
-    font-size: 14px;
-  }
+  opacity: 0.5;
+  font-size: 14px;
+}
 
+/*GRACE'S SPACE*/
+.article3 h3 {
+  text-align: left;
+  border: 1px solid black;
+  font-weight: 700;
+}
+#article3-p {
+  color: #666666;
+  font-size: 16px;
+  border: 1px solid black;
+}
 
+.article3 {
+  margin-left: auto;
+  margin-right: auto;
+  width: 900px;
+}
 
-  /*GRACE'S SPACE*/
-  
+.article3-subtext1 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 25px;
+  line-height: 17px;
+}
+
+.article3-subtext1 span {
+  font-size: 12px;
+  font-weight: bolder;
+}
+
+.article3-subtext2 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 25px;
+  line-height: 17px;
+}
+
+.article3-subtext2 span {
+  font-size: 12px;
+  font-weight: bolder;
+}
+
+.article3-subtext1 p {
+  font-size: 15px;
+}
+
+.article3-subtext2 p {
+  font-size: 15px;
+}
+
+#subtext1 {
+  font-size: 15px;
+}
+
+#subtext2 {
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+#subtext1::before {
+  content: "";
+  display: block;
+  margin: 7px;
+  width: 12%;
+  border-bottom: 1px solid black;
+}
