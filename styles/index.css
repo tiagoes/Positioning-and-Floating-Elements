@@ -502,8 +502,6 @@ footer {
   margin-left: auto;
   margin-top: 50  px;
   margin-bottom: 300px;
-  /* padding-right: 50px;
-  padding-left: 50px; */
   padding-bottom: 10px;
 }
 
@@ -561,12 +559,6 @@ footer {
   width: 200px;
   border-left: 1px solid gray;
   padding-left: 15px;
-  
-}
-
-.footer-navBar-1list {
-  /* border: 1px solid black; */
-  
   
 }
 
