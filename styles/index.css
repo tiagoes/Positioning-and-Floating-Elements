@@ -454,10 +454,12 @@ p {
 }
 
 .small_span{  
+  width: 270px;
   color: gray;
   text-align: right;
   margin-bottom: 5px;
   font-size: 12px; 
+  line-height: 10px;
 }
 
 .photogallery-individual-box p:nth-child(3){
@@ -500,7 +502,7 @@ footer {
   width: 1200px;
   margin-right: auto;
   margin-left: auto;
-  margin-top: 50  px;
+  margin-top: 50px;
   margin-bottom: 300px;
   padding-bottom: 10px;
 }
