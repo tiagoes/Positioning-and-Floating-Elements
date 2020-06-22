@@ -51,6 +51,7 @@ p {
 }
 
 .navBar h3 {
+  font-family: 'Great Vibes', cursive;
   font-weight: 600;
 }
 
@@ -122,7 +123,7 @@ p {
   width: 300px;
 }
 
-.box-items-left p {
+.box-items-left h3 {
   color: #333;
   font-weight: 600;
   text-decoration: underline;
@@ -407,7 +408,7 @@ p {
   width: 1000px;
 }
 
-#subtext2 {
+.subtext2 {
   font-weight: 700;
   margin-bottom: 10px;
 }
@@ -458,7 +459,7 @@ p {
   color: gray;
   text-align: right;
   margin-bottom: 5px;
-  font-size: 12px; 
+  font-size: 8px; 
   line-height: 10px;
 }
 
