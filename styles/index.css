@@ -142,6 +142,11 @@ p {
   line-height: 20px;
 }
 
+.time {
+  color: gray;
+  font-size: 14px;
+}
+
 .box-items-left p:hover {
   text-decoration: none;
 }
@@ -178,8 +183,8 @@ p {
 }
 
 .navBar h3 {
-  font-family: 'Great Vibes', cursive;
   font-weight: 600;
+  font-style: italic;
 }
 
 .right-navBar {
@@ -501,7 +506,7 @@ p {
   color: gray;
   text-align: right;
   margin-bottom: 5px;
-  font-size: 8px;
+  font-size: 10px;
   line-height: 10px;
 }
 

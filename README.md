@@ -20,7 +20,7 @@ This project was the first project compiled by Grace and Tiago in the Microverse
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/defoebrand/mint-signup/5303d1519e38fc8a90b83aa59caf71ff30e05830/index.html)
+[Live Demo Link](https://raw.githack.com/tiagoes/Positioning-and-Floating-Elements/main-branch/index.html)
 
 
 ## Getting Started
