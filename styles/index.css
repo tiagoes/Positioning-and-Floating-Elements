@@ -37,8 +37,135 @@ p {
   opacity: 0.8;
 }
 
+.box-items-right a {
+  font-size: 22px;
+  padding-left: 15px;
+  opacity: 0.8;
+}
+
+.subtext a {
+  font-size: 16px;
+  color: rgb(50, 104, 145);
+  font-weight: 700;
+}
+
+.article4-bottom-text,
+.article4-bottom-text a {
+  font-size: 12px;
+  color: gray;
+  line-height: 20px;
+}
+
+.article4-icons a {
+  padding-left: 15px;
+  font-size: 20px;
+  opacity: 0.8;
+}
+
+.footer-bottom a {
+  color: #666;
+  font-size: 11px;
+}
+
+.footer-title a {
+  color: rgb(86, 123, 149);
+  font-size: 13px;
+  align-self: flex-end;
+}
+
+.footer-navBar-1list a {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.footer-main-column a {
+  width: 150px;
+  font-size: 14px;
+  color: rgb(51, 51, 51);
+}
+
+.footer-navBar-3list a {
+  font-size: 11px;
+}
+
+.photogallery-sideVar ul li a {
+  color: #121212;
+}
+
 .left-navBar a:hover {
   opacity: 0.4;
+}
+
+.article4-img-container p {
+  color: #666;
+  line-height: 20px;
+  font-size: 16px;
+  padding-right: 50px;
+}
+
+.subtext p {
+  margin-bottom: 0;
+  font-size: 16px;
+  font-weight: 800;
+}
+
+.video-container p {
+  color: #666;
+  line-height: 20px;
+  font-size: 16px;
+  padding-right: 100px;
+}
+
+.article3-image-grid p {
+  padding-top: 170px;
+  padding-left: 10px;
+  padding-right: 5px;
+  margin-bottom: 0;
+  font-size: 12px;
+  line-height: 15px;
+}
+
+.article3-header p {
+  color: #666;
+  font-size: 14px;
+  line-height: 20px;
+  margin-bottom: 0;
+}
+
+.mainImage p {
+  color: #666;
+  font-size: 16px;
+  padding-right: 50px;
+  margin-top: 10px;
+  width: 900px;
+  border-right: 20px;
+  line-height: 20px;
+}
+
+.box-items-left p:hover {
+  text-decoration: none;
+}
+
+.article4-bottom-text a:hover {
+  text-decoration: underline;
+}
+
+.photogallery-individual-box p:nth-child(3) {
+  line-height: 22px;
+  margin-bottom: 0;
+  color: #121212;
+}
+
+.footer-bottom a:hover,
+.footer-title a:hover,
+.footer-main-column a:hover {
+  text-decoration: underline;
+}
+
+.photogallery-sideVar ul li a:hover,
+.photogallery-individual-box p:nth-child(3):hover {
+  color: gray;
+  cursor: pointer;
 }
 
 .space {
@@ -92,14 +219,19 @@ p {
   font-style: italic;
 }
 
-.mainImage p {
-  color: #666;
+.box-items-left span {
+  color: #333;
   font-size: 16px;
-  padding-right: 50px;
-  margin-top: 10px;
-  width: 900px;
-  border-right: 20px;
-  line-height: 20px;
+}
+
+.article4-img-container span {
+  opacity: 0.5;
+  font-size: 14px;
+}
+
+.article3-image-grid span {
+  font-size: 12px;
+  font-weight: bolder;
 }
 
 .mainImage p span {
@@ -129,27 +261,12 @@ p {
   text-decoration: underline;
 }
 
-.box-items-left p:hover {
-  text-decoration: none;
-}
-
-.box-items-left span {
-  color: #333;
-  font-size: 16px;
-}
-
 .box-items-right {
   width: 300px;
   margin-top: 45px;
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
-}
-
-.box-items-right a {
-  font-size: 22px;
-  padding-left: 15px;
-  opacity: 0.8;
 }
 
 .box-items-right a :hover {
@@ -161,7 +278,6 @@ p {
   flex-direction: row;
   justify-content: space-between;
   width: 900px;
-  justify-items: ;
   margin-left: calc((100% - 600px) / 2);
   margin-right: auto;
 }
@@ -203,23 +319,30 @@ p {
   line-height: 15px;
 }
 
+.article3-header h3 {
+  text-align: left;
+  font-weight: 700;
+}
+
+.footer-main-column h3 {
+  font-size: 13px;
+  font-weight: 700;
+  color: rgb(51, 51, 51);
+}
+
 .aside-container-box h3:hover {
   text-decoration: underline;
 }
 
 .aside-container-box h3 span {
-  font-weight: 700;
-}
-
-#fourthh3 {
-  margin-top: 0px;
+  font-weight: bold;
 }
 
 .subtext::before {
   content: "";
   display: block;
-  margin: 0px auto 20px auto;
-  width: 12.5%;
+  margin: 0 auto 20px auto;
+  width: 1 2.5%;
   border-bottom: 1px solid gray;
 }
 
@@ -229,24 +352,12 @@ p {
   margin-bottom: 30px;
 }
 
-.subtext:after {
+.subtext::after {
   content: "";
   display: block;
-  margin: 20px auto 0px auto;
+  margin: 20px auto 0 auto;
   width: 12.5%;
   border-bottom: 1px solid gray;
-}
-
-.subtext p {
-  margin-bottom: 0px;
-  font-size: 16px;
-  font-weight: 800;
-}
-
-.subtext a {
-  font-size: 16px;
-  color: rgb(50, 104, 145);
-  font-weight: 700;
 }
 
 .article-bluelink {
@@ -265,27 +376,9 @@ p {
   margin-bottom: 50px;
 }
 
-.video-container p {
-  color: #666;
-  line-height: 20px;
-  font-size: 16px;
-  padding-right: 100px;
-}
-
 .video-container p span {
   opacity: 0.5;
   font-size: 14px;
-}
-
-.article4-bottom-text,
-.article4-bottom-text a {
-  font-size: 12px;
-  color: gray;
-  line-height: 20px;
-}
-
-.article4-bottom-text a:hover {
-  text-decoration: underline;
 }
 
 .article4-footer {
@@ -312,12 +405,6 @@ p {
   font-size: 24px;
 }
 
-.article4-icons a {
-  padding-left: 15px;
-  font-size: 20px;
-  opacity: 0.8;
-}
-
 .article4-icons a :hover {
   opacity: 0.4;
 }
@@ -332,40 +419,14 @@ p {
   height: auto;
 }
 
-.article4-img-container p {
-  color: #666;
-  line-height: 20px;
-  font-size: 16px;
-  padding-right: 50px;
-}
-
-.article4-img-container span {
-  opacity: 0.5;
-  font-size: 14px;
-}
-
 .article3 {
   margin-left: auto;
   margin-right: auto;
   width: 1000px;
-  
-}
-
-.article3-header h3{
-  text-align: left;
-  font-weight: 700;
-}
-
-.article3-header p{
-  color: #666666;
-  font-size: 14px;
-  line-height: 20px;
-  margin-bottom: 0px;
 }
 
 .article3-image {
   background-image: url(https://static01.nyt.com/newsgraphics/2014/03/18/theory-of-inflation/1ebaa1b972edda0f407fbaa0e010f6b50fb6792e/inflation-945.png);
-  background-size: 1000px;
   width: 1000px;
   height: 576px;
   background-size: cover;
@@ -380,24 +441,7 @@ p {
   display: grid;
   grid-template-columns: repeat(4, 250px);
   grid-template-rows: 200px 200px;
-  grid-column-gap: 0px;
   grid-row-gap: 80px;
-    
-}
-
-.article3-image-grid span {
-  font-size: 12px;
-  font-weight: bolder;
-  
-}
-
-.article3-image-grid p {
-  padding-top: 170px;
-  padding-left: 10px;
-  padding-right: 5px;
-  margin-bottom: 0px;
-  font-size: 12px;
-  line-height: 15px;
 }
 
 #subtext1 {
@@ -416,13 +460,12 @@ p {
 #subtext1::before {
   content: "";
   display: block;
-  margin: 7px 7px 20px 7px ;
+  margin: 7px 7px 20px 7px;
   width: 12%;
   border-bottom: 1px solid black;
 }
 
 .photogallery-main {
-  
   display: flex;
   flex-direction: row;
   width: 1200px;
@@ -441,7 +484,6 @@ p {
 
 .photogallery-row {
   display: flex;
-
 }
 
 .photogallery-collumn {
@@ -454,28 +496,16 @@ p {
   padding-bottom: 20px;
 }
 
-.small_span{  
+.small_span {
   width: 270px;
   color: gray;
   text-align: right;
   margin-bottom: 5px;
-  font-size: 8px; 
+  font-size: 8px;
   line-height: 10px;
 }
 
-.photogallery-individual-box p:nth-child(3){
-  line-height: 22px;
-  margin-bottom: 0px;
-  color: #121212;
-}
-
-.photogallery-sideVar ul li a:hover,
-.photogallery-individual-box p:nth-child(3):hover {
-  color: gray;
-  cursor: pointer;
-}
-
-.photogallery-individual-box time{
+.photogallery-individual-box time {
   color: gray;
   font-size: 14px;
 }
@@ -488,15 +518,11 @@ p {
 .photogallery-sideVar {
   display: flex;
   flex-direction: column;
-  width: 315px ;
+  width: 315px;
 }
 
-.photogallery-sideVar ul li a{
- color: #121212;
- 
-}
 .photogallery-sideVar ul li {
-  padding: 15px 0px;
+  padding: 15px 0;
 }
 
 footer {
@@ -521,12 +547,6 @@ footer {
   align-self: center;
 }
 
-.footer-title a {
-  color: rgb(86, 123, 149);
-  font-size: 13px;
-  align-self: flex-end;
-}
-
 .footer-main-row {
   display: flex;
   flex-direction: row;
@@ -540,64 +560,22 @@ footer {
   flex-direction: column;
 }
 
-.footer-main-column h3 {
-  font-size: 13px;
-  font-weight: 700;
-  color: rgb(51, 51, 51)
-}
-
-.footer-main-column a {
-  width: 150px;
-  font-size: 14px;
-  color: rgb(51, 51, 51)
-}
-
-.footer-bottom a:hover,
-.footer-title a:hover,
-.footer-main-column a:hover {
-  text-decoration: underline;
-}
-
 .footer-navBar-size {
   width: 200px;
   border-left: 1px solid gray;
   padding-left: 15px;
-  
 }
 
-.footer-navBar-1list a {
-  font-size: 14px;
-  font-weight: 700;
-  
-}
-
-.footer-navBar-2ist  {
+.footer-navBar-2ist {
   border-bottom: 1px solid black;
-}
-
-.footer-navBar-2list a {
-font-size: 11px;
-
 }
 
 .footer-navBar-3list {
   border-top: 1px solid grey;
-  
-}
-
-.footer-navBar-3list a{
-  font-size: 11px;
 }
 
 .footer-bottom {
- display: flex;
- justify-content: space-around;
- padding-top: 10px;
+  display: flex;
+  justify-content: space-around;
+  padding-top: 10px;
 }
-
-.footer-bottom a{
-  color: #666;
-  font-size: 11px;
-}
-
-
