@@ -8,15 +8,15 @@ Tiago and Grace's Positioning-and-Floating-Elements project
 
 Additional description about the project and its features.
 
-This project was the first project compiled by Grace and Tiago in the Microverse HTML/CSS section of the course work. It involved cloning a New York Times article page.
+This project was the first project compiled by Grace and Tiago in the Microverse HTML/CSS section of the course work. It involved cloning a New York Times article page.The project contains a section with images, videos and a lot of texts. The  aside tag was used for the Editor's picks. The page contains fixed nav-bars, one on the top and one at the bottom.
 
 ## Built With
 
 - HTML and CSS
 - VScode 
 - Windows10 and Ubuntu
-- https://validator.w3.org was used to validate the HTML code in this project
-- https://stickler-ci.com/ was used to validate the CSS code in this project
+- Webhint was used to validate the HTML code in this project
+- Stylelint was used to validate the CSS code in this project
 
 ## Live Demo
 
