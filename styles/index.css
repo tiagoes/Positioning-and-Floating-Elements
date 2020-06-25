@@ -89,6 +89,20 @@ p {
   font-size: 11px;
 }
 
+.fixed-navBar-footer-container_3 a {
+  width: 95px;
+  font-size: 12px;
+  padding-top: 15px;
+  text-align: center;
+  font-weight: bolder;
+}
+
+.navBar h3 a {
+  font-weight: 600;
+  font-style: italic;
+  cursor: pointer;
+}
+
 .photogallery-sideVar ul li a {
   color: #121212;
 }
@@ -181,12 +195,6 @@ p {
 
 .space:hover {
   text-decoration: underline;
-}
-
-.navBar h3 a{
-  font-weight: 600;
-  font-style: italic;
-  cursor: pointer;
 }
 
 .right-navBar {
@@ -400,6 +408,21 @@ p {
   color: white;
 }
 
+.fixed-navBar-footer-container_3 {
+  width: 150px;
+  display: flex;
+}
+
+.fixed-navBar-footer-container_3 button {
+  background-color: white;
+  width: 55px;
+  height: 100%;
+  border: 0;
+  cursor: pointer;
+  outline: none;
+  font-size: 16px;
+}
+
 .article4-footer button:hover {
   opacity: 0.8;
   cursor: pointer;
@@ -603,7 +626,6 @@ footer {
   height: 55px;
   width: 1200px;
   margin: auto;
-  
 }
 
 .fixed-navBar-footer-container_1 {
@@ -615,29 +637,4 @@ footer {
   text-align: center;
   font-size: 16px;
   padding-top: 15px;
-}
-
-.fixed-navBar-footer-container_3 {
-  width: 150px;
-  display: flex;
-}
-
-.fixed-navBar-footer-container_3 button {
-  background-color: white;
-  width: 55px;
-  height: 100%;
-  /* border-top: 0;
-  border-bottom: 0; */
-  border: 0;
-  cursor: pointer;
-  outline: none;
-  font-size: 16px;
-}
-
-.fixed-navBar-footer-container_3 a {
-  width: 95px;
-  font-size: 12px;
-  padding-top: 15px;
-  text-align: center;
-  font-weight: bolder;
 }
