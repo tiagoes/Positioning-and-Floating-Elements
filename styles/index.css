@@ -166,16 +166,52 @@ p {
   text-decoration: none;
 }
 
-.article4-bottom-text a:hover {
-  text-decoration: underline;
-}
-
 .photogallery-individual-box p:nth-child(3) {
   line-height: 22px;
   margin-bottom: 0;
   color: #121212;
 }
 
+.aside-container-box h3 {
+  font-size: 14px;
+  padding-left: 10px;
+  padding-top: 5px;
+  line-height: 15px;
+}
+
+.box-items-left h3 {
+  color: #333;
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+.aside-container > h3 {
+  font-size: 14px;
+  font-weight: 700;
+  padding-bottom: 12px;
+  margin-bottom: 15px;
+  border-bottom: 1px solid gray;
+}
+
+.article3-header h3 {
+  text-align: left;
+  font-weight: 700;
+}
+
+.footer-main-column h3 {
+  font-size: 13px;
+  font-weight: 700;
+  color: rgb(51, 51, 51);
+}
+
+.space {
+  font-weight: 600;
+  opacity: 0.8;
+}
+
+.aside-container-box h3:hover,
+.space:hover,
+.article4-bottom-text a:hover,
 .footer-bottom a:hover,
 .footer-title a:hover,
 .footer-main-column a:hover {
@@ -186,15 +222,6 @@ p {
 .photogallery-individual-box p:nth-child(3):hover {
   color: gray;
   cursor: pointer;
-}
-
-.space {
-  font-weight: 600;
-  opacity: 0.8;
-}
-
-.space:hover {
-  text-decoration: underline;
 }
 
 .right-navBar {
@@ -270,12 +297,6 @@ p {
   width: 300px;
 }
 
-.box-items-left h3 {
-  color: #333;
-  font-weight: 600;
-  text-decoration: underline;
-}
-
 .box-items-right {
   width: 300px;
   margin-top: 45px;
@@ -308,14 +329,6 @@ p {
   padding-top: 950px;
 }
 
-.aside-container > h3 {
-  font-size: 14px;
-  font-weight: 700;
-  padding-bottom: 12px;
-  margin-bottom: 15px;
-  border-bottom: 1px solid gray;
-}
-
 .aside-container-box {
   display: flex;
   flex-direction: row;
@@ -325,28 +338,6 @@ p {
 .aside-container-box img {
   width: 75px;
   height: 75px;
-}
-
-.aside-container-box h3 {
-  font-size: 14px;
-  padding-left: 10px;
-  padding-top: 5px;
-  line-height: 15px;
-}
-
-.article3-header h3 {
-  text-align: left;
-  font-weight: 700;
-}
-
-.footer-main-column h3 {
-  font-size: 13px;
-  font-weight: 700;
-  color: rgb(51, 51, 51);
-}
-
-.aside-container-box h3:hover {
-  text-decoration: underline;
 }
 
 .aside-container-box h3 span {
